@@ -85,3 +85,13 @@
 
 ---
 
+
+
+## 연관 사이트
+
+[GitHub Flavored Markdown](https://github.github.com/gfm/)
+
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown)
+
+[Markdown Guide](https://www.markdownguide.org/) cheet sheet 활용에 좋다
+

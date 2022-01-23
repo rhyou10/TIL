@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link href = './practice.css' rel= 'stylesheet' type= 'text/css'>
+
+        <!--<script type = 'text/javascript'>
+            function doSometing(){
+                let a = document.getElementById('input A').value;
+                let b = document.getElementById('input B').value;
+                document.getElementById('value a').innerHTML = a;
+                document.getElementById('value b').innerHTML = b;
+                document.getElementById('value c').innerHTML = Number(a) + Number(b);
+            }
+            function whatTimeIsIt(){
+                alert(new Date());
+            }
+        </script> 내부 스크립트-->
+        <!-- 외부 스크립트의 경우-->
+        <script src = './add_two_number.js' type="text/javascript"></script>
+        <script src = './what_time_is_it.js' type="text/javascript"></script>
+    </head>
+    <body>
+        <nav>
+            <a href ="./index.html">Home</a>
+            <a href = "./blog_list.html">Blog</a>
+            <a href= "./about_me.html">About Me</a>
+        </nav>
+        <h1>1헤드라인</h1>
+        <h2>2헤드라인</h2>
+        <h3>3헤드라인</h3>
+        <h4>4헤드라인</h4>
+        <h5>5헤드라인</h5>
+
+        <button onclick="whatTimeIsIt()">현재시간은</button>
+        <hr />
+
+        <label for = 'input A'>a</label>
+        <input id = 'input A' value=1 onkeyup='doSometing()'>
+        <label for = 'input B'>b</label>
+        <input id = 'input B' value=2 onkeyup='doSometing()'>
+
+        <p><span id ='value a'>1</span> + <span id='value b'>2</span> = <span id = 'value c'>3</span> 입니다.</p>
+        <p><span id ='value a'>1</span> + <span id='value b'>2</span> = <span id = 'value c'>3</span> 입니다.</p>
+        <p>document.getElementById의경우 html안에 id가 유일해야하므로 위와같이 같은코드여도 먼저나온 id에 의해서만 바뀐다.</p>
+
+
+        <p>문단은 p로 사용할것. p는 Paragraph의 앞글자</p>
+        <a href = "https://www.google.com">go to google</a>
+    <hr/>
+        <img src ="./images/dream.jpg" width="600px">
+    </body>
+</html>
